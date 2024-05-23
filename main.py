@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.image('kartinki-titanik-6.jpg')
 st.header('Данные пассажиров Титаника')
 st.write('Просмотр данных количества выживших женщин по каждому классу обслуживания, с диапазоном платы за проезд')
-price = st.slider('Диапазон платы за проезд в $ 1000', 0, 1000,  (0, 1000))
+price = st.slider('Диапазон платы за проезд в $ 600', 0, 600,  (0, 600))
 def count_survivors(filename, price):
     first_class_survived = 0
     second_class_survived = 0
